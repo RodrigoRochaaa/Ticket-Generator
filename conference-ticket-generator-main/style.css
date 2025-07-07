@@ -1,0 +1,194 @@
+@font-face {
+    font-family:Inconsolata-Variable-Font;
+    src: url(assets/fonts/Inconsolata-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family:insolota-bold;
+    src: url(assets/fonts/static/Inconsolata-Bold.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Inconsolata-Variable-Font;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+    color: white;
+    background-image: url('background-desktop.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+/*Header*/
+
+#header-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 23px;
+}
+
+h2{
+    font-size: 2.2em
+}
+
+#logo-mark{
+  height: 30px;
+  margin-top: 5px;
+}
+
+
+ /*Main*/
+
+ h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    font-size: 3.8rem;
+    text-align: center;
+    font-family: insolota-bold;
+ }
+
+.first-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+ /*Form*/
+
+#upload-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+
+}
+
+#upload-align{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    width: 18dvw;
+}
+
+/*File-Input*/
+
+fieldset{
+    border: 2px dashed rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.09);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.file-input-container {
+    position: relative;
+    width: 18dvw;
+    height: 10dvh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+
+}
+
+#fileInput {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+#icon-upload-edit{
+    margin: 20px;
+    max-width: 100%;
+    max-height: 100%;
+    border: 10px solid rgba(255, 255, 255, 0.2);
+    background-color: transparent;
+    border-radius: 15px;
+   
+    
+}
+
+.text-upload{
+    padding: 1.5rem 4.5rem;
+    text-align: center;
+}
+
+
+
+/*Info*/
+
+#info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 12px;
+    height: 8px;
+    gap: 5px;
+    font-family: Inconsolata-Variable-Font;
+    color: (255, 255, 255, 0.8);
+}
+#info>img{
+    height: 12px;
+    margin-bottom: 5px;
+}
+
+/*Label*/
+
+#form-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+}
+
+#input-Name,#input-email,#input-GitHub{
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    background-color: rgba(255, 255, 255, 0.09);
+    border-radius: 8px;
+    height: 4.5dvh;
+    width: 18dvw;
+    outline: none;
+    padding-left: 15px;
+    margin-top: 8px;
+}
+
+.text-align{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    min-height: 100%;
+    margin-top: 1.5rem;
+}
+
+#ticket-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #F66451;
+    background-color: #F66451;
+    height: 4.5dvh;
+    width: 18dvw;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    color: #270F2E;
+    font-size: larger;
+    font-family: insolota-bold;
+}
+
+.attribution{
+    font-size: 20px;
+    padding-bottom: 25px;
+}

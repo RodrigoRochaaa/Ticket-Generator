@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="notie-master/dist/notie.min.css" />
+
+    <title>Frontend Mentor | Conference ticket generator</title>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <!--Header-->
+    <header>
+      <h2 id="header-wrapper">
+        <img
+          id="logo-mark"
+          src="./assets/images/logo-mark.svg"
+          alt="Logo Mark of the Conference"
+        />
+        Coding Conf
+      </h2>
+    </header>
+    <main>
+      <h1>
+        Sua jornada para a Coding Conf <br />
+        2025 começa aqui!
+      </h1>
+      <p class="first-text">
+        Garanta seu lugar na maior conferência de codificação do ano que vem.
+      </p>
+      <!--Fomulário-->
+      <form id="myForm">
+        <div id="upload-wrapper">
+          <div id="upload-align">
+            <p class="upload-avatar">Upload Avatar</p>
+            <br />
+            <fieldset>
+              <div class="file-input-container">
+                <img
+                  id="icon-upload-edit"
+                  src="./assets/images/icon-upload.svg"
+                  alt="icon for upload"
+                />
+                <input type="file" id="fileInput" accept="image/*" />
+                <img id="image-preview" src="" alt="" />
+              </div>
+              <p class="text-upload">
+                Arraste e solte ou apenas clique para fazer upload da sua foto
+              </p>
+            </fieldset>
+
+            <div id="info">
+              <img
+                src="./assets/images/icon-info.svg"
+                alt="an icon of info"
+              />Carregue sua foto (JPG ou PNG, Tamanho Máximo: 500KB).
+              <br /><br />
+            </div>
+          </div>
+        </div>
+        <!--Inputs-->
+        <div id="form-wrapper">
+          <div class="text-align">
+            <label for="input-Name" id="label-name" name="nome"
+              >Nome Completo</label
+            >
+            <input type="text" name="nome" id="input-Name" /><br /><br />
+            <label for="input-email" id="label-email" name="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="input-email"
+              placeholder="exemploDe@email.com"
+            /><br /><br />
+            <label for="input-GitHub" id="label-github" name="GitHub"
+              >GitHub Username</label
+            >
+            <input
+              type="text"
+              id="input-GitHub"
+              name="GitHub"
+              placeholder="@seuUsername"
+            /><br /><br />
+          </div>
+
+          <div class="edit-button">
+            <button id="ticket-button">Gerar Meu Ticket</button>
+          </div>
+        </div>
+      </form>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/RodrigoRochaaa" target="_blank"
+        >Rodrigo Rocha</a
+      >.
+    </div>
+    <script src="layout.js"></script>
+    <script src="notie-master/dist/notie.min.js"></script>
+  </body>
+</html>

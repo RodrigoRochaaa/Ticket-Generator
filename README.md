@@ -39,6 +39,3 @@ Para visualizar e interagir com este projeto localmente, siga os passos abaixo:
     `cd [Nome da pasta do seu projeto de formulário]`
 3.  🌐 **Abra o arquivo `index.html` em seu navegador web.**
 
-## 🔗 Demonstração Online (Live Demo)
-[Insira o link aqui (GitHub Pages, Netlify ou Vercel)]
----

@@ -30,12 +30,3 @@ Após o preenchimento e validação corretos, um "ticket" virtual é gerado, exi
 * 📄 **HTML5:** Estrutura semântica e acessível do formulário.
 * 🎨 **CSS3:** Estilização responsiva, garantindo uma interface agradável e o design do ticket.
 * 💡 **JavaScript (ES6+):** Lógica de validação de formulário, manipulação do DOM e geração dinâmica do ticket.
-
-## ⚙️ Como Executar o Projeto
-Para visualizar e interagir com este projeto localmente, siga os passos abaixo:
-1.  💻 **Clone o repositório:**
-    `git clone [Link do seu repositório GitHub para este projeto]`
-2.  📁 **Navegue até a pasta do projeto:**
-    `cd [Nome da pasta do seu projeto de formulário]`
-3.  🌐 **Abra o arquivo `index.html` em seu navegador web.**
-
